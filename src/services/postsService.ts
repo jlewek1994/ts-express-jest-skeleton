@@ -1,7 +1,7 @@
 import Post from '../interfaces/post';
 
 // mock api data
-cost POSTS: Array<Post> = [
+const POSTS: Array<Post> = [
   {
     userId: 0,
     id: 1,
@@ -35,9 +35,9 @@ export class PostsService {
     this.apiUrl = process.env.API_URL;
   }
 
-  public postsRequest (): Post[] {
+  public postsRequest (): Promise<any> {
     // mock api request
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       resolve(POSTS);
     });
   }

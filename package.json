@@ -1,5 +1,5 @@
 {
-  "name": "TypeScript API skeleton",
+  "name": "ts-express-jest-skeleton",
   "version": "1.0.0",
   "description": "",
   "author": "Jakub Lewek",
@@ -34,7 +34,7 @@
   "dependencies": {
     "bunyan": "^1.8.14",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.1",:
     "ts-node": "^9.0.0"
   },
   "devDependencies": {
